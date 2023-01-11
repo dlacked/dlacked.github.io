@@ -1,36 +1,42 @@
 #menuBar{
-    font-size: 20px;
+    font-size: 40px;
     display: grid;
-    grid-template-columns: 196px 1fr 150px 150px 150px;
+    grid-template-columns: 196px 1fr 250px 250px 250px;
     text-align: center;
     border-bottom: 1px black solid;
     width: 100%;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
+h1{
+    font-size: 60px;
+    display: inline;
+    padding-left: 30px;
+    padding-top: 30px;
+}
 
 a{
     text-decoration: none;
 }
 
-.hello{
-    text-align: center;
+.topsubject{
     font-size: 20px;
     margin: 0;
 }
-h1{
-    font-size: 40px;
-    text-align: left;
-    display: inline;
-}
 
-#subject{
+.subject{
     font-size: 60px;
-    color: purple;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
     margin: 0;
 }
 
-@media(max-width: 650px){
+
+
+
+@media(max-width: 950px){
     .direct{
         display: None;
     }
