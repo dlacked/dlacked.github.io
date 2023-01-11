@@ -23,7 +23,6 @@ p{
 
 a{
     text-decoration: none;
-    font-weight: bold;
     color: white;
 }
 
@@ -48,7 +47,6 @@ h3{
 
 .subject{
     font-size: 5.5rem;
-    font-weight: bold;
     color: #ffffff;
     background-color: black;
     margin: 0;
@@ -69,19 +67,6 @@ h3{
 }
 
 @media(max-width: 950px){
-    .direct{
-        display: None;
-    }
-    #menuBar{
-        text-align: center;
-        grid-template-columns: 1fr;
-    }
-    .subject{
-        font-size: 3rem;
-    }
-}
-
-@media(min-height: 2000px){
     .direct{
         display: None;
     }
