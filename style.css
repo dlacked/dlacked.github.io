@@ -1,7 +1,47 @@
 html, body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+}
+
+h1{
+    font-size: 60px;
+    display: inline;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h4{
+    margin:0;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 540;
+}
+.topsubject{
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.subject{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+    margin: 0;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 #menuBar{
@@ -17,42 +57,11 @@ html, body{
     border: 5px blue solid;
 }
 
-#screen{
-    display: grid;
-    grid-template-rows: 110px 90vh;
-    border: green 5px solid;
-}
 
-h1{
-    font-size: 60px;
-    display: inline;
-    padding-left: 30px;
-    padding-top: 30px;
-}
 
-a{
-    text-decoration: none;
-}
 
-.topsubject{
-    font-size: 25px;
-    margin: 0;
-    padding-bottom: 30px;
-}
 
-.subject{
-    font-size: 5rem;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: black;
-    margin: 0;
-}
 
-p{
-    font-size: 20px;
-    padding-top: 50px;
-    margin: 0;
-}
 
 @media(max-width: 950px){
     .direct{
