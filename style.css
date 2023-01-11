@@ -1,0 +1,41 @@
+#menuBar{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 196px 1fr 150px 150px 150px;
+    text-align: center;
+    border-bottom: 1px black solid;
+    width: 100%;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.hello{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    display: inline;
+}
+
+#subject{
+    font-size: 60px;
+    color: purple;
+    margin: 0;
+}
+
+@media(max-width: 650px){
+    .direct{
+        display: None;
+    }
+    #menuBar{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+}
