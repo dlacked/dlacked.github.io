@@ -2,36 +2,48 @@ html, body{
     width: 100%;
     height: 100%;
     margin: 0;
+    color: white;
+    font-family: 'godic12';
 }
 
 h1{
     font-size: 60px;
     display: inline;
-    padding-left: 30px;
+    padding-left: 60px;
     padding-top: 30px;
+    font-family: 'Circular';
 }
 
 p{
     font-size: 20px;
     padding-top: 40px;
     margin: 0;
+    
 }
 
 a{
     text-decoration: none;
     font-weight: bold;
+    color: white;
 }
 
 h4{
     margin:0;
     padding-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 540;
+    font-family: 'Circular';
 }
-.topsubject{
-    font-size: 25px;
+
+h3{
+    font-size: 30px;
     margin: 0;
     padding-bottom: 30px;
+    font-family: 'Circular';
+}
+
+.direct{
+    font-family: 'Circular';
 }
 
 .subject{
@@ -42,6 +54,7 @@ h4{
     margin: 0;
     padding-right: 30px;
     padding-bottom: 20px;
+    font-family: godic15;
 }
 
 #menuBar{
@@ -49,18 +62,11 @@ h4{
     display: grid;
     grid-template-columns: 196px 1fr 150px 150px 150px;
     text-align: center;
-    border-bottom: 1px black solid;
     width: auto;
     padding: 10px;
     padding-bottom: 20px;
     place-items: center;
 }
-
-
-
-
-
-
 
 @media(max-width: 950px){
     .direct{
@@ -73,4 +79,32 @@ h4{
     .subject{
         font-size: 3rem;
     }
+}
+
+@media(min-height: 2000px){
+    .direct{
+        display: None;
+    }
+    #menuBar{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .subject{
+        font-size: 3rem;
+    }
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('fonts/FontsFree-Net-CircularStd-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'godic12';
+    src: url('fonts/a고딕12.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'godic15';
+    src: url('fonts/a고딕14.ttf') format('truetype');
 }
