@@ -11,8 +11,7 @@ h1{
     display: inline;
     padding-left: 60px;
     padding-top: 30px;
-    font-family: 'Circular';'
-    font-weight: 100;
+    font-family: 'Circular';
 }
 
 p{
@@ -25,6 +24,14 @@ p{
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'Circular';
 }
 
 h4{
@@ -33,14 +40,6 @@ h4{
     font-size: 20px;
     font-weight: 540;
     font-family: 'Circular';
-}
-
-h3{
-    font-size: 30px;
-    margin: 0;
-    padding-bottom: 30px;
-    font-family: 'Circular';
-    font-weight: 100;
 }
 
 .direct{
