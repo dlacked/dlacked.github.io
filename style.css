@@ -56,6 +56,12 @@ h4{
     place-items: center;
 }
 
+
+
+
+
+
+
 @media(max-width: 950px){
     .direct{
         display: None;
