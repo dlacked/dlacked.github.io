@@ -1,88 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
-        <title>dlacked</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <title>dlacked | ABOUT ME</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <!-- 메뉴 -->
-        <div style="background-image: url(img/mainbg.png)">
-            <div id="menuBar">
-                <div><h1><a href="https://dlacked.github.io">dlacked</a></h1></div>
+        <div id="aboutmeContainer"><!--전체화면 컨테이너 rows grid-->
+            <div></div>
+            <div>
+                <div id="aboutMeRowContainer1"><!--container 두 번째 부분의 columns grid-->
+                    <div></div>
+                    <div class="card"></div> <!--1-->
+                    <div class="card changyong"> <!--2-->
+                        <div></div>
+                        <div><img src="img/changyong.jpg" width="85%"></div>
+                        <div></div>
+                    </div>
+                    <div class="card main"> <!--3-->
+                        <h1>임창용</h1>
+                        <p>한국외국어대학교 컴퓨터공학부 22학번</p>
+                        <p>저는 다양한 생각에 빠지는 것을 좋아합니다.<br>
+                            많은 생각에 빠지면 다양한 아이디어가 떠오르게 되는데<br>
+                            '과연 내가 이걸 할 수 있을까?' 하며 제 자신을 의심하곤 합니다.<br>
+                            하지만 목표를 이룰 때마다 뭐든지 하면 이룰 수 있다는 걸 느꼈습니다.<br><br>
+                            이런 경험을 토대로 단순히 공상에만 그치지 않고<br>
+                            공상을 현실로 만들 줄 아는 프론트엔드 개발자가 되겠습니다.
+                        </p>
+                        <h2>CONTACT ME</h2>
+                        <div id="contactMe">
+                            <div>
+                                <a href="https://www.instagram.com/dlacked/"><button style="background-color: #e44086;"><img src="img/instagram.svg" width="100%"></button></a>
+                                <p>@dlacked</p>
+                            </div>
+                            <div>
+                                <a href="mailto:imcy0104@gmail.com"><button style="background-color: #EA4335;"><img src="img/mail.svg" width="50%"></button></a>
+                                <p>imcy0104</p>
+                            </div>
+                            <div>
+                            </div>
+                            <div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <h2>ABOUT ME</h2>
+                        <div id="contactMe">
+                            <div>
+                                <a href="https://github.com/dlacked"><button style="background-color: black;"><img src="img/github.svg" width="100%"></button></a>
+                                <p>dlacked</p>
+                            </div>
+                            <div>
+                                <a href="https://www.acmicpc.net/user/imcy0104"><button style="background-color: #0479C7;"><img src="img/boj.svg" width="100%"></button></a>
+                                <p>imcy0104</p>
+                            </div>
+                            <div>
+                                <a href="https://solved.ac/profile/imcy0104"><button style="background: #17CE3A;"><img src="img/solvedac.svg" width="100%"></button></a>
+                                <p>imcy0104</p>
+                            </div>
+                            
+                            <div>
+                                <a href="https://open.spotify.com/user/2fz1dsg58rj212iue0f42q9wk"><button style="background: #1DB954;"><img src="img/spotify.svg" width="50%"></button></a>
+                                <p>dlacked</p>
+                            </div>
+                            <div>
+                                <a href="https://velog.io/@imcy0104"><button style="background: #20C997;"><img src="img/velog.svg" width="50%"></button></a>
+                                <p>@imcy0104</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+                <div style="padding: 0.5%"></div><!--container 사이의 padding 값-->
+                <div id="aboutMeRowContainer2"><!--container 두 번째 부분의 columns grid-->
+                    <div></div>
+                    <div class="card arrow"><p style="margin: 0">∨</p>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div id="menuContainer">
+            <div></div>
+            <div style="padding: 0.5%"></div><!--container 사이의 padding 값-->
+            <div id="aboutMeRowContainer3"><!--container 두 번째 부분의 columns grid-->
                 <div></div>
-                <div class="direct" style="color: white;">BLOG</div>
-                <div class="direct"><a href="https://www.instagram.com/dlacked/">INSTAGRAM</a></div>
-                <div class="direct"><a href="https://github.com/dlacked">GITHUB</a></div>
+                <div class="card hello">
+                    <h1>안녕하세요!</h1>
+                    <p>제 페이지에 방문해주셔서 너무너무 감사합니다 :D</p>
+                </div>
+                <div class="card projects">
+                    <div></div>
+                    <div>
+                        <a href="projects.html"><h1 style="padding: 0;">PROJECTS</h1></a>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="noneCard"></div>
+                <div></div>
             </div>
-
-        <!-- 메인 페이지 -->
-        
-            <div style="padding-left: 2%; padding-top: 15%;">
-                <h3>CHANGYONG IM</h3>
-                <span class="subject">"그저 단어들이<br>
-                흘러나오는 대로 해"</span>
-                <p><strong>임창용</strong><br>
-                <a href="https://computer.hufs.ac.kr" target="_blank">한국외국어대학교 컴퓨터공학부</a> 1전공<br>
-                <a href="https://arab.hufs.ac.kr" target="_blank">한국외국어대학교 아랍어과</a> 이중전공<br><br>
-                안녕하세요, 컴퓨터공학부 22학번 임창용입니다.</p>
+            <div style="padding: 0.5%"></div><!--container 사이의 padding 값-->
+            <div id="aboutMeRowContainer4"><!--container 두 번째 부분의 columns grid-->
+                <div></div>
+                <div class="card timeline">
+                    <div></div>
+                    <div>
+                        <a href="timeline.html"><h1 style="padding: 0;">TIMELINE</h1></a>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="noneCard" style="margin-left: 2.4%; margin-right: 2.4%;"></div>
+                <div class="noneCard" style="margin-right: 3.2%;"></div>
+                <div class="card aboutMe">
+                    <div></div>
+                    <div>
+                        <a href="aboutMe.html"><h1 style="padding: 0;">ABOUT ME</h1></a>
+                    </div>
+                    <div></div>
+                </div>
+                <div></div>
             </div>
-
-            <div style="padding-left: 2%; padding-top: 30%; ">
-                <h3>PROGRAMMING</h3>
-                <span class="subject">밋밋한 검정색 바탕 속에서<br>제 상상을 그립니다.</span>
-                <p>현재 Frontend 언어인 HTML5, CSS3, JavaScript를 공부하고 있습니다.<br>
-                앞으로 React를 공부해 볼 계획이고, 다양한 프로젝트를 기획하고 있습니다.
-                </p>
-
-                <h4>EDUCATION</h4>
-                <p>
-                <a href="https://computer.hufs.ac.kr" target="_blank">한국외국어대학교 컴퓨터공학부</a> 1전공<br>
-                <a href="https://arab.hufs.ac.kr" target="_blank">한국외국어대학교 아랍어과</a> 이중전공<br>
-                <a href="https://gdsc.community.dev/hankuk-university-of-foreign-studies/" target="_blank">GDSC HUFS Chapter</a> 4기 멤버
-                </p>
-
-                <h4>CERTIFICATION</h4>
-                <p>
-                <a href="https://license.korcham.net/co/examguide.do?mm=21&cd=0103" target="_blank">컴퓨터활용능력 2급</a> 자격 취득 (2022. 02.)<br>
-                <a href="https://license.korcham.net/co/examguide.do?mm=21&cd=0103" target="_blank">컴퓨터활용능력 1급</a> 자격 취득 (2022. 03.)<br>
-                </p>
-
-                <h4>PARTICIPATION</h4>
-                <p>
-                Stop Covid-19 Challenge 공모전 참가<br>
-                GDSC X TAB HUFSUMMER Hackathon 참가<br>
-                HUFS CODE FESTIVAL Challenger Track 30등
-                </p>
-
-                <h4>PROJECTS</h4>
-                <p><b>SimCoin</b> 가상화폐 투자 시뮬레이션<br>
-                <a href="https://dlacked.github.io" target="_blank">개인 홈페이지</a> 제작<br>
-                <a href="https://dlacked.github.io/Namyangju/" target="_blank">Good Time, Namyangju!</a> 개발 중<br>
-                <a href="https://dlacked.github.io/PostIt" target="_blank">Post-It </a> 팀 프로젝트 개발 중<br>
-                </p>
-            </div>
-
-            <div style="padding-left: 2%; padding-top: 30%;">
-                <h3>UNDER CONSTRUCTION</h3>
-                <span class="subject">하이퍼링크는 제작중이니<br>조금만 기다려 주세요!</span>
-            </div>
-
-            <div style="padding-left: 2%; padding-top: 50%; padding-bottom: 1%">
-                <h4>© 2023<br>CHANGYONG IM / dlacked<br>ALL RIGHTS RESERVED.</h4>
+            <div style="padding: 0.5%"></div><!--container 사이의 padding 값-->
+            <div id="copyrightContainer">
+                <div></div>
+                <div class="card copyright">Copyright 2023. dlacked<br>All rights reserved.</div>
+                <div class="noneCard" style="margin-left: 6%; margin-right: 6%;"></div>
+                <div class="noneCard" style="margin-right: 9%;"></div>
+                <div class="noneCard" style="margin-right: 4.5%;"></div>
+                <div class="noneCard" style="margin-right: 16%;"></div>
+                <div class="noneCard"></div>
+                <div></div>
             </div>
         </div>
-
-<!--
-        <h2>LINKS</h2>
-        <h1>저에 대해 더 궁금한 게 있나요?<br>
-        이쪽으로 오세요!!</h1>
-        <a href="https://www.instagram.com/dlacked/">Instagram</a><br>
-        <a href="https://www.acmicpc.net/user/imcy0104">BOJ</a><br>
-        <a href="https://solved.ac/profile/imcy0104">solved.ac</a><br>
-        <a href="https://github.com/dlacked">Github</a><br>
-        <a href="https://open.spotify.com/user/2fz1dsg58rj212iue0f42q9wk?si=0433145893c243f0">Spotify</a><br>
-        <a href="https://stats.fm/dlacked">Stats.fm</a>
--->
     </body>
 </html>
