@@ -236,10 +236,10 @@ a:hover{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 10px;
     }
     p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     button{
@@ -260,6 +260,10 @@ a:hover{
         font-size: 10px;
     }
 
+    .webDes{
+        font-size: 0px;
+    }
+    
     #aboutMeRowContainer3{ /*container 네 번째 부분의 columns grid*/
         display: grid;
         grid-template-columns: 1fr 6fr 4fr 2fr 1fr;
