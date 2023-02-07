@@ -225,7 +225,7 @@ a:hover{
     
     #copyrightContainer{
         display: grid;
-        grid-template-columns: 1fr 5fr 5fr 0fr 0fr 0fr 2fr 1fr;
+        grid-template-columns: 1fr 5fr 1.6fr 1.2fr 0.8fr 1fr 2.4fr 1fr;
     }
 }
 
@@ -280,6 +280,6 @@ a:hover{
     
     #copyrightContainer{
         display: grid;
-        grid-template-columns: 1fr 5fr 5fr 0fr 0fr 0fr 2fr 1fr;
+        grid-template-columns: 1fr 5fr 1.6fr 1.2fr 0.8fr 1fr 2.4fr 1fr;
     }
 }
