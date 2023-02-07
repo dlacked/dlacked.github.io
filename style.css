@@ -182,7 +182,6 @@ a:hover{
 @media all and (min-width: 768px) and (max-width: 1023px){
     h1{
         font-size: 28px;
-        color: blue;
     }
 
     h2{
@@ -233,8 +232,7 @@ a:hover{
 
 @media all and (max-width:767px){ /*mobile*/
     h1{
-        font-size: 28px;
-        color: red;
+        font-size: 50px;
     }
 
     h2{
