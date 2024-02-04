@@ -51,7 +51,7 @@ html, body{
 .card{ /*하얀 카드*/
     background-color: rgb(250, 250, 250);
     box-shadow: 0 0 40px rgb(231, 231, 231);
-    border-radius: 1%;
+    border-radius: 10px;
     transition-property: background-color;
     transition-duration: 1s;
 }
